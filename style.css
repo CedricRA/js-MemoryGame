@@ -8,8 +8,10 @@ h2 {
 }
 
 .card {
-  width: 100px;
-  height: 100px;
+  width: 20vw;
+  height: 20vw;
+  max-width: 100px;
+  max-height: 100px;
   background-color: lightslategrey;
   display: inline-block;
   cursor: pointer;
@@ -21,8 +23,10 @@ h2 {
 }
 
 .btn-play-again {
-  width: 414px;
-  height: 50px;
+  width: 84vw;
+  max-width: 414px;
+  height: 10vw;
+  max-height: 50px;
   background-color: royalblue;
 }
 
