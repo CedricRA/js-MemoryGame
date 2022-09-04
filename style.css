@@ -1,0 +1,63 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+#mainDiv {
+  text-align: center;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: lightslategrey;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: inset 0px 0px 0px 1px red;
+  box-sizing: border-box;
+}
+
+.btn-play-again {
+  width: 414px;
+  height: 50px;
+  background-color: royalblue;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.teal {
+  background-color: teal;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.hidden {
+  background-color: lightslategrey;
+}
