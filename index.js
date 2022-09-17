@@ -3,6 +3,23 @@ isDisplaying = false;
 firstElement = null;
 secondElement = null;
 
+function onLoad() {
+  const mainDiv = document.getElementById('mainDiv');
+  const cards = mainDiv.getElementsByClassName('card');
+  const colors = ['red', 'blue', 'green', 'orange', 'pink', 'purple', 'teal', 'yellow',
+                  'red', 'blue', 'green', 'orange', 'pink', 'purple', 'teal', 'yellow'];
+  for(let i=0; i< cards.length; i++) {
+    const randomNumber = getRandomInt(colors.length-1);
+    const color = colors[randomNumber];
+    colors.splice(randomNumber, 1);
+    cards[i].classList.add(color);
+  };
+}
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
 function onCardClick(e) {
   if (isFirstElement) {
     firstPairElementClicked(e);
